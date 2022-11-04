@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
 *{
   margin: 0;
   padding: 0;
@@ -6,7 +8,8 @@
   box-sizing: border-box;
 }
 body {
-  background: #084C61;
+  background: #C8BFC7;
+  font-family: 'Roboto', sans-serif;
   height: 100vh;
 }
 .page{
@@ -17,15 +20,49 @@ body {
   .section{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
     width: 500px;
-    height: 300px;
     background: #C8BFC7;
     border-radius: 6px;
-    .sentance{
-
+    background: #C8BFC7;
+    box-shadow:  7px 7px 24px #9c959b,
+    -7px -7px 24px #f4e9f3;
+    .sentance {
+      padding: 10px;
+      color: #084C61;
+      font-size: 20px;
     }
-    button {
-
+    .button{
+      button{
+        background: #084C61;
+        border: 1px solid #084C61;
+        color: #f4e9f3;
+        padding: 10px 35px;
+        border-radius: 6px;
+        outline: none;
+        cursor: pointer;
+        transition: 0.3s
+      }
+      button:nth-child(1){
+        margin-right: 30px;
+      }
+      button:focus{
+        background: #f4e9f3;
+        border: 1px solid #084C61;
+        color: #084C61;
+      }
+    }
+    #submit{
+      margin: 10px;
+      background: #084C61;
+      border: 1px solid #084C61;
+      color: #f4e9f3;
+      padding: 10px 35px;
+      border-radius: 6px;
+      outline: none;
+      cursor: pointer;
     }
   }
 }
