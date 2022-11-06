@@ -6,6 +6,7 @@ let verification
 
 buttonDog.addEventListener('click', () => {
     verification = "dog"
+    console.log(verification);
 
 })
 buttonCat.addEventListener('click', () => {
